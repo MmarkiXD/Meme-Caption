@@ -1,13 +1,13 @@
-@import url(https://db.onlinewebfonts.com/c/f33386cecac9a7b108372daba6e2efc4?family=Futura+Bold+Condensed);
+@import url(https://db.onlinewebfonts.com/c/3b74f7e5f6b16a8d2c6ced3f8b3bd9c7?family=Futura+LT+W04+X+Bold+Condensed);
 
 @font-face {
-    font-family: "Futura Bold Condensed";
-    src: url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.eot");
-    src: url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.svg#Futura Bold Condensed")format("svg");
+    font-family: "Futura LT W04 X Bold Condensed";
+    src: url("https://db.onlinewebfonts.com/t/3b74f7e5f6b16a8d2c6ced3f8b3bd9c7.eot");
+    src: url("https://db.onlinewebfonts.com/t/3b74f7e5f6b16a8d2c6ced3f8b3bd9c7.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3b74f7e5f6b16a8d2c6ced3f8b3bd9c7.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3b74f7e5f6b16a8d2c6ced3f8b3bd9c7.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/3b74f7e5f6b16a8d2c6ced3f8b3bd9c7.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3b74f7e5f6b16a8d2c6ced3f8b3bd9c7.svg#Futura LT W04 X Bold Condensed")format("svg");
 }
 
 * {
@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: "Futura Bold Condensed";
+  font-family: "Futura LT W04 X Bold Condensed";
   background: #f0f0f0;
   text-align: center;
   padding: 20px;

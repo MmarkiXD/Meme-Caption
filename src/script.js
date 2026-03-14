@@ -150,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let imgWidth = uploadedImage.width * scale;
     let imgHeight = uploadedImage.height * scale;
 
-    ctx.font = `bold ${fontSize}px Futura Bold Condensed`;
+    ctx.font = `bold ${fontSize}px Futura LT W04 X Bold Condensed`;
     
     const lines = wrapText(caption, imgWidth - 40);
 
@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ctx.textAlign = "left";
     ctx.fillStyle = "black";
     ctx.lineWidth = 4;
-    ctx.font = `bold ${fontSize}px Futura Bold Condensed`;
+    ctx.font = `bold ${fontSize}px Futura LT W04 X Bold Condensed`;
     ctx.textBaseLine = "alphabetic";
     
     let y = fontSize + 20;
