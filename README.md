@@ -1,4 +1,4 @@
-# Meme Caption (Recreation)
+# Meme Caption
 
 This is a caption was recreated from the **Top Text** and the **Bottom Image**
 Additional from **Twemoji by Twitter**
