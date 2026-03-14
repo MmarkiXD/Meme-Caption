@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link href="https://db.onlinewebfonts.com/c/f33386cecac9a7b108372daba6e2efc4?family=Futura+Bold+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="icon" type="image/png" href="icon.png">
+    <script src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js"></script>
+    <title>Meme Caption</title>
+    
+  </head>
+  
+  <body>
+    <div class="container">
+      <h2>Meme Caption</h2>
+      <div class="buttons">
+        <button id="importBtn">Import Image</button>
+        <input type="file" id="imageUpload" accept="image/*" hidden />
+
+        <button id="downloadBtn" disabled>Export Image</button>
+      </div>
+      <div id="emojiPreview"></div>
+      
+      <label>Enter File Name (optional)</label>
+      <input type="text" id="filename" disabled />
+      <label>Enter Caption</label>
+      <input type="text" id="caption" disabled />
+      <label>Enter Font Size</label>
+      <input type="number" id="fontSize" min="10" max="200" disabled />
+
+      <canvas id="memeCanvas"></canvas>
+    </div>
+    
+    <div class="social-button">
+      
+      <div class="source-code">
+        <a href="https://github.com/MmarkiXD/meme-caption-recreation">
+          <button>Source Code</button>
+        </a>
+      </div>
+      
+    </div>
+    
+    <div class="copyright-notice">
+      <p>&copy; <script>document.write(new Date().getFullYear())</script> All Rights Reserved.</p>
+    </div>
+    
+    <script src="src/script.js"></script>
+  </body>
+  
+</html>

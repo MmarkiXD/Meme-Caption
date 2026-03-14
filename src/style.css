@@ -1,0 +1,149 @@
+@import url(https://db.onlinewebfonts.com/c/f33386cecac9a7b108372daba6e2efc4?family=Futura+Bold+Condensed);
+
+@font-face {
+    font-family: "Futura Bold Condensed";
+    src: url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.eot");
+    src: url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f33386cecac9a7b108372daba6e2efc4.svg#Futura Bold Condensed")format("svg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Futura Bold Condensed";
+  background: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 520px; 
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Buttons layout */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #4caf50;
+  color: white;
+  min-width: 140px;
+}
+
+button:hover {
+  background: #43a047;
+}
+
+/* Caption input */
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Canvas */
+
+canvas {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+/* My disabled */
+
+button:disabled {
+  background: #aaa;
+}
+
+input:disabled {
+  background: #eee;
+}
+
+label {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+/* Social Stuffs */
+
+.social-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 100%;
+  margin-top: 15px;
+  gap: 2px;
+}
+
+.social-button button {
+  background: #555;
+}
+
+
+.copyright-notice {
+  margin-top: 10px;
+  font-family: Arial, Sans-Serif;
+  font-size: 10px;
+}
+
+/* 📱 Mobile adjustments */
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+  
+  .container {
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
